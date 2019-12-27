@@ -15,7 +15,7 @@ CityOS::CityOS()
     debug.errors = true;
 
     api.active   = true;
-    api.host     = "ctos.io";
+    api.host     = "52.21.67.246"; // Add IP in case DNS not working (ctos.io)
     api.port     = 80;
     api.deviceID = "00:00:00:00:00:00";
     api.timeout  = 10;

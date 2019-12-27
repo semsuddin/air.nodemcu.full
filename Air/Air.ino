@@ -4,7 +4,7 @@
 // setup runs once
 void setup()
 {
-    // ctos.sensing.interval = 5;
+    ctos.sensing.interval = 10;
     // ring.listen = "air aqi range";
     // ring.debug  = true;
 
