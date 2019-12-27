@@ -75,17 +75,9 @@ cache:
 
 env:
     - PLATFORMIO_CI_SRC=Air/Air.ino
-    - PLATFORMIO_CI_SRC=lib/Board
-    - PLATFORMIO_CI_SRC=lib/Base
-    - PLATFORMIO_CI_SRC=lib/Util
-    - PLATFORMIO_CI_SRC=lib/Sense
-    - PLATFORMIO_CI_SRC=lib/Control
-    - PLATFORMIO_CI_SRC=lib/Sim
-    - PLATFORMIO_CI_SRC=lib/Device
 
 install:
     - pip install -U platformio
 
 script:
-    - cp lib/Device/Device.h.sample lib/Device/Device.h
-    - platformio ci --project-conf=platformio.ini
+    - platformio ci --project-conf=platformio.ini --lib="lib/*"
