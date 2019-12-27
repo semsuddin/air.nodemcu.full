@@ -73,6 +73,9 @@ cache:
     directories:
         - "~/.platformio"
 
+env:
+    - PLATFORMIO_CI_SRC=Air/Air.ino
+
 install:
     - pip install -U platformio
 
