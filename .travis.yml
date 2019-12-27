@@ -76,6 +76,9 @@ cache:
 env:
     - PLATFORMIO_CI_SRC=Air/Air.ino
 
+before_install:
+    - mv lib/Device/Device.h.sample lib/Device/Device.h
+
 install:
     - pip install -U platformio
 
