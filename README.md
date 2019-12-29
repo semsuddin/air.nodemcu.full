@@ -1,10 +1,14 @@
-# CityOS pollution sensor device
+# CityOS Air Device [![Build Status](https://travis-ci.com/semsuddin/air.nodemcu.full.svg?branch=custom)](https://travis-ci.com/semsuddin/air.nodemcu.full)
 
-[TOC]
+- [Get Started - quick version](#Get started - quick version)
+  * [Get the following components](#Get the following components)
+  * [Connect your ESP8266 device with the sensors](#Connect your ESP8266 device with the sensors)
+  * [Build and flash the code](#Build and flash the code)
+- [Get started - longer version](#http://docs.cityos.io/v1.0/docs/installations)
 
-## Get started (quick version)
+## Get started - quick version
 
-### Get the following components
+* ### Get the following components:
 
 | No        | Description                                               | Links                       | Quantity             | Price ($) |
 | --------- |:---------------------------------------------------------:| ---------------------------:| --------------------:| ---------:|
@@ -23,11 +27,11 @@
 | 3         | Capacitor                                                 | http://ebay.to/2rSm3Qv      | 1 x 1000uF 16V       | $1.6      |
 | 3         | Acryllic DIY sheets or 3D printed enclosure               | local store or DIY          |                      |           |
 
-### Connect your ESP8266 device
+* ### Connect your ESP8266 device with the sensors
 
 Schema: https://cityos-air.readme.io/docs/standard-version-with-led-ring
 
-### Build and flash the code
+* ### Build and flash the code
 
 Prerequisites: VSCode, Git, Python, PlatformIO (as VSCode extension)
 
@@ -41,7 +45,7 @@ Prerequisites: VSCode, Git, Python, PlatformIO (as VSCode extension)
 
 If everything went well, you should be able to see your device and it's current data under https://cityos.io/device 
 
-## Get started (longer version)
-### Full docs can be found here: http://docs.cityos.io/v1.0/docs/installations
+## Get started - longer version
+Documentation http://docs.cityos.io/v1.0/docs/installations
 
-Enjoy and thanks for your contribution to the community!
+Thanks for your contribution to the community!
