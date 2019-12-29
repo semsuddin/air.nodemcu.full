@@ -1,10 +1,11 @@
 # CityOS Air Device [![Build Status](https://travis-ci.com/semsuddin/air.nodemcu.full.svg?branch=custom)](https://travis-ci.com/semsuddin/air.nodemcu.full)
 
-- [Get Started - quick version](#Get started - quick version)
-  * [Get the following components](#Get the following components)
-  * [Connect your ESP8266 device with the sensors](#Connect your ESP8266 device with the sensors)
-  * [Build and flash the code](#Build and flash the code)
-- [Get started - longer version](#http://docs.cityos.io/v1.0/docs/installations)
+Table of Contents:
+- Get Started - quick version
+  * Get the following components
+  * Connect your ESP8266 device with the sensors
+  * Build and flash the code
+- Get started - longer version
 
 ## Get started - quick version
 
